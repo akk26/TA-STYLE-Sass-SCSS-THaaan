@@ -1,0 +1,41 @@
+.container{
+    max-width: 1550px;
+    width: 100%;
+    margin: auto;
+    // border: 1px solid green;
+}
+.flex{
+    display: flex;
+}
+.justify_between{
+    justify-content: space-between;
+}
+.justify_center{
+    justify-content: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.align_center{
+    align-items: center;
+}
+.flex_30{
+    flex: 0 1 30%;
+}
+.flex_25{
+    flex: 0 1 25%;
+}
+.flex_20{
+    flex: 0 1 20%;
+}
+.flex_48{
+    flex: 0 1 48%;
+}
+a{
+    text-decoration: none;
+}
+
+$primary_color : rgb(220,60,69);
+$background_color : rgb(220,60,69);
+$secondary_color : rgb(242,242,242);
+
