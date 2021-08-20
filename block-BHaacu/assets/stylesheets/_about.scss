@@ -1,0 +1,117 @@
+main{
+    .aboutUs{
+        .article_left{
+            width: 100%;
+            .heading{
+                text-align: center;
+            }
+            p{
+                text-align: center;
+                margin-top: 1rem;
+            }
+    }
+}
+
+
+    .ourTeam{
+        background-color: $secondary_color;
+        .article{
+            text-align: center;
+            background-color: white;
+            border: 1px solid rgba(128, 128, 128, 0.295);
+            padding: 0.5rem 0.3rem;
+            box-shadow: -1px -1px -3px rgba(255,255,255,0.6),
+                        1px 1px 3px rgba(0,0,0,0.6);
+            img{
+                width: 100%;
+            }
+            h3{
+                font-size: 1.3rem;
+            }
+            .designation{
+                color: red;
+            }
+        }
+        
+    }
+
+    .bestSollutions{
+        background-color: white;
+    }
+
+    .mission_vision_values{
+        padding: 3rem 0;
+        .left{
+            // border: 1px solid red;
+            text-align: center;
+            img{
+                width: 300px;
+            }
+        }
+        .right{
+            // border: 1px solid red;
+            article{
+                margin: 4rem 0;
+                i{
+                    font-size: 2.5rem;
+                    margin-right: 1.8rem;
+                }
+                .data{
+                    h4{
+                        font-size: 1.8rem;
+                        font-weight: 900;
+                    }
+                    p{
+                        margin-top: 0.6rem;
+                        line-height: 1.5;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.consult{
+    
+    .content{
+        .article_left{
+            .color_red{
+                color: red;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width : 520px) {
+    html{
+        font-size: 10px;
+    }
+    .address_navBar{
+        .mail_hide{
+            display: none;
+        }
+    }
+    .clients{
+        width: 100%;
+    }
+    // .clients {
+    //     .allBrands{
+    //         display: inline-block;
+    //         width: 100%;
+    //         margin: auto;
+    //         // border: 1px solid red;
+    //         img{
+    //             display: block;
+    //             width: 50%;
+    //             text-align: center;
+    //             margin: 2rem  auto;
+    //             // border: 1px solid red;
+    //         }
+    //     }
+    // }
+    .flex_25{
+        flex: 0 1 100%;
+    }
+}
+

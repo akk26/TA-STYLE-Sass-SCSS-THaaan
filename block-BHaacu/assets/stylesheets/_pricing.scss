@@ -1,0 +1,54 @@
+
+    main{
+        .pricing{
+            background-color: $secondary_color;
+            .article{
+                line-height: 1.5;
+                padding: 4rem 0;
+                p{
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                }
+                h2{
+                    font-size: 2.5rem;
+                    font-weight: 900;
+                }
+                small{
+                    color: grey;
+                    font-size: 0.9rem;
+                }
+                ul{
+                    margin-top: 2rem;
+                    line-height: 2; 
+                }
+                .bg_btn{
+                    background-color: $primary_color;
+                   a{
+                    color: white;
+                   }
+               }
+            }
+        }  
+    }  
+
+       
+.frequently{
+    padding: 5rem 0;
+    // border: 1px solid red;
+    article{
+        border: 1px solid rgba(0, 128, 0, 0.356);
+        padding: 1.5rem 0.6rem;
+        box-shadow: -1px -1px 3px rgba(255,255,255,0.5),
+                    1px 1px 3px rgba(0,0,0,0.5);
+        margin: 1rem 0;
+        h2{
+            font-size: 1.2rem;
+            font-weight: 900;
+        }
+        p{
+            font-size: 1rem;
+            line-height: 1.5;
+            margin-top: 1.5rem;
+        }
+    }
+}
